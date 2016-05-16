@@ -1,0 +1,20 @@
+{
+  "capabilities":
+  [
+    {
+      "browserName": "firefox",
+      "maxInstances": 1,
+      "seleniumProtocol": "WebDriver",
+      "nodeName": "bar"
+    }
+  ],
+  "configuration":
+  {
+    "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+    "maxSession": 5,
+    "port": 5556,
+    "register": true,
+    "registerCycle": 5000,
+    "hub": "http://localhost:4444"
+  }
+}
