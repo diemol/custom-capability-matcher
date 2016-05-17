@@ -5,7 +5,7 @@ found [here](https://rationaleemotions.wordpress.com/2014/01/19/working-with-a-c
 ## How to generate the jar
 _It will be placed in the target folder_
 ```
-    $ mvn package
+    $ mvn -DskipTests=true package
 ```
 
 ## Steps to start the grid
